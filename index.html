@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NeuroSpace</title>
+
+    <meta name="description" content="Сайт про нейробіологію та роботу мозку">
+
+    <meta property="og:title" content="NeuroSpace">
+
+    <meta property="og:description" content="Дослідження людського мозку та нейробіології">
+
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="hero">
+
+        <img src="images/brain.jpg" alt="Brain" class="hero-image">
+
+        <h1>NeuroSpace</h1>
+
+        <p>
+            Дослідження людського мозку,
+            пам’яті, емоцій та нейробіології
+        </p>
+
+    <button onclick="openModal()">
+    Дізнатися більше
+    </button>
+
+    </header>
+
+    <section class="about">
+
+        <h2>Що таке нейробіологія?</h2>
+
+        <p>
+            Нейробіологія — це наука, яка досліджує
+            нервову систему, мозок, нейрони та механізми
+            роботи людської свідомості.
+        </p>
+
+    </section>
+
+    <section class="brain-section">
+
+        <h2>Основні функції мозку</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <img src="images/memory.jpg" alt="Memory">
+
+                <h3>Пам’ять</h3>
+
+                <p>
+                    Мозок здатний зберігати величезні
+                    обсяги інформації через нейронні зв’язки.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="images/emotion.jpg" alt="Emotion">
+
+                <h3>Емоції</h3>
+
+                <p>
+                    Емоційні реакції формуються завдяки
+                    складній роботі різних зон мозку.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <img src="images/sleep.jpg" alt="Sleep">
+
+                <h3>Сон</h3>
+
+                <p>
+                    Під час сну мозок відновлюється
+                    та обробляє отриману інформацію.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="facts">
+
+        <h2>Цікаві факти</h2>
+
+        <ul>
+
+            <li>Людський мозок містить близько 86 мільярдів нейронів.</li>
+
+            <li>Мозок використовує приблизно 20% всієї енергії організму.</li>
+
+            <li>Нейрони можуть створювати нові зв’язки протягом життя.</li>
+
+        </ul>
+
+    </section>
+
+    <footer>
+
+        <p>© 2026 NeuroSpace | Educational Project</p>
+
+    </footer>
+
+    <div class="modal" id="infoModal">
+
+    <div class="modal-content">
+
+        <span class="close" onclick="closeModal()">
+            &times;
+        </span>
+
+        <h2>Цікаві факти про мозок 🧠</h2>
+
+        <p>
+            Людський мозок є одним із найскладніших об'єктів у Всесвіті.
+            Він містить приблизно 86 мільярдів нейронів та здатний
+            створювати нові нейронні зв’язки протягом усього життя.
+        </p>
+
+        <p>
+            Нейробіологія допомагає вивчати пам’ять,
+            емоції, сон, концентрацію та навіть механізми
+            прийняття рішень.
+        </p>
+
+        <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/B_tjKYvEziI"
+            title="YouTube video player"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+
+    </div>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+
+</html>
